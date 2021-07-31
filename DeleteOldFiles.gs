@@ -25,6 +25,6 @@ function DeleteOldFiles() {
   }
 
   if(Logger.getLog() != '')
-    MailApp.sendEmail('cesar@gridshield.net,bryan.alfaro@gridshield.net,keyla@gridshield.net', 'Passwords temporales eliminados', Logger.getLog());
+    MailApp.sendEmail('csar.grnds@gmail.com', 'Passwords temporales eliminados', Logger.getLog());
 };
 
